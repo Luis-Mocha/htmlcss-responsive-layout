@@ -56,7 +56,7 @@
     #get-demo .card {
         width: calc(100% / 3 - 1rem);
     }
-    #card1-get-demo {
+    #get-demo #card1-get-demo {
         width: calc((100% / 3) * 2 - 0.5rem);
         text-align: start;
     }
@@ -67,19 +67,25 @@
 /* Desktop */
 @media screen and (min-width: 1000px){
     #card1-get-demo {
-        display: flex;
         position: relative;
+        display: flex;
+        justify-content: space-between;
     }
     .card1-text {
         width: 50%;
     }
     .card1-img {
-        width: 50%;
+        width: 40%;
+        position: relative;
+    }
+    .card1-img img {
+        width: 80%;
         position: absolute;
-        right: 0;
         bottom: 0;
     }
 }
+
+
 
 /* --- SECTION PLANNING --- */
 #planning {
@@ -108,4 +114,31 @@ margin-bottom: 2.5rem;
     border-radius: 50%;
     padding: 1rem 1.2rem;
     margin-bottom: 0;
+}
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #planning h2 {
+        font-size: 4rem;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1000px){
+    #planning h2 {
+        font-size: 1.5rem;
+    }
+    #planning {
+        width: 60%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .up-sx  {
+        width: 60%;
+    }
+    .bottom-dx {
+        margin: 0;
+        align-self: end;
+        width: 30%;
+    }
 }
