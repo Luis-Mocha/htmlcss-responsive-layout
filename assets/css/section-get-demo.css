@@ -75,13 +75,13 @@
         width: 50%;
     }
     .card1-img {
-        width: 40%;
-        position: relative;
+        background-image: url(../img/phone.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
     .card1-img img {
-        width: 80%;
-        position: absolute;
-        bottom: 0;
+        display: none;
     }
 }
 
@@ -188,3 +188,17 @@ margin-bottom: 2.5rem;
     }
 }
 
+
+/* --- SECTION BENEFITS --- */
+#benefits h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.benefit-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+}
