@@ -114,6 +114,7 @@ margin-bottom: 2.5rem;
     border-radius: 50%;
     padding: 1rem 1.2rem;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 /* BREAKPOINTS */

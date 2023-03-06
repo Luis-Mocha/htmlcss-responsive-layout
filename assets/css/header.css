@@ -7,9 +7,32 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+}
+header .fa-bars {
     font-size: 1.5rem;
 }
 
 nav {
     display: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-left: 1rem;
+}
+
+
+
+/* BREAKPOINTS */
+/* Tablet: nessuna differenza*/
+
+/* Desktop */
+@media screen and (min-width: 1000px){
+    nav {
+        display: block;
+    }
+    header .fa-bars {
+        display: none;
+    }
 }
