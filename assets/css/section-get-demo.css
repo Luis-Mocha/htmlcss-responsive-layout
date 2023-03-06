@@ -1,7 +1,8 @@
+/* --- SECTION GET-DEMO --- */
 #get-demo {
     flex-direction: column;
 }
-.card-get-demo {
+.card {
     background-color: rgb(181,221,255);
     border-radius: 30px;
     text-align: center;
@@ -9,28 +10,28 @@
     padding: 2rem 1rem;
 }
 
-.card-get-demo > * {
+.card > * {
     margin-bottom: 2rem;
 }
 .card1-text > * {
     margin-bottom: 2rem; 
 }
 
-.card-get-demo .fa-solid {
+.card .fa-solid {
     margin-bottom: 1rem;
 }
 
-.card-get-demo h2,
-.card-get-demo .fa-solid {
+#get-demo h2,
+#get-demo .fa-solid {
     color: rgb(0,132,253);
 }
 
-.card-get-demo .fa-solid {
+#get-demo .fa-solid {
     font-size: 5rem;
 }
 
-.card-get-demo h2,
-.card-get-demo p {
+.card h2,
+.card p {
     font-weight: 700;
 }
 
@@ -52,7 +53,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .card-get-demo {
+    #get-demo .card {
         width: calc(100% / 3 - 1rem);
     }
     #card1-get-demo {
@@ -78,4 +79,33 @@
         right: 0;
         bottom: 0;
     }
+}
+
+/* --- SECTION PLANNING --- */
+#planning {
+    flex-direction: column;
+}
+/* prima parte della section */
+#planning .up-sx {
+    color: white;
+}
+#planning .up-sx > * {
+margin-bottom: 2.5rem;
+}
+#planning h2 {
+    font-size: 2rem;
+}
+
+/* seconda parte della section */
+#planning .card {
+    background-color: white;
+}
+#planning .card p {
+    font-style: italic;
+}
+.fa-arrow-down-long {
+    background-color: rgb(151,146,228);
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0;
 }
