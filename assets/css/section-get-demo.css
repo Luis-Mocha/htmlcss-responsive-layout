@@ -1,0 +1,36 @@
+.card-get-demo {
+    background-color: rgb(181,221,255);
+    border-radius: 30px;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+}
+
+.card-get-demo > * {
+    margin-bottom: 2rem;
+}
+.card-get-demo .fa-solid {
+    margin-bottom: 1rem;
+}
+
+.card-get-demo h2,
+.card-get-demo .fa-solid {
+    color: rgb(0,132,253);
+}
+
+.card-get-demo .fa-solid {
+    font-size: 5rem;
+}
+
+.card-get-demo h2,
+.card-get-demo p {
+    font-weight: 700;
+}
+
+/* Prima card */
+#card1-get-demo {
+    padding: 2rem 1rem 0;
+}
+#card1-get-demo img {
+    margin-top: 2rem;
+}

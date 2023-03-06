@@ -1,0 +1,15 @@
+/* HEADER */
+header {
+    background-color: rgb(0,132,253);
+}
+.header-contenuto { 
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: none;
+}
