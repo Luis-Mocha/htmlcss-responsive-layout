@@ -12,6 +12,10 @@
 .card-get-demo > * {
     margin-bottom: 2rem;
 }
+.card1-text > * {
+    margin-bottom: 2rem; 
+}
+
 .card-get-demo .fa-solid {
     margin-bottom: 1rem;
 }
@@ -34,7 +38,7 @@
 #card1-get-demo {
     padding: 2rem 1rem 0;
 }
-#card1-get-demo img {
+.card1-img {
     margin-top: 2rem;
     margin-bottom: 0;
 }
@@ -53,9 +57,25 @@
     }
     #card1-get-demo {
         width: calc((100% / 3) * 2 - 0.5rem);
+        text-align: start;
+    }
+    .card1-img {
+        width: 60%;
     }
 }
 /* Desktop */
-@media screen and (min-width: 600px){
-    
+@media screen and (min-width: 1000px){
+    #card1-get-demo {
+        display: flex;
+        position: relative;
+    }
+    .card1-text {
+        width: 50%;
+    }
+    .card1-img {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 }

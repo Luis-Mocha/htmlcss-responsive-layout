@@ -66,12 +66,12 @@ section {
     }
 }
 /* Desktop */
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1000px){
     .container {
         max-width: 75%;
         margin: auto;
     }
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
