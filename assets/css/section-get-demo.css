@@ -176,3 +176,15 @@ margin-bottom: 2.5rem;
     padding-top: 1rem;
 }
 
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #testimonials .testimonial-card{
+        text-align: start;
+    }
+    .testimonial-card  {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
