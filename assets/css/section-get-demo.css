@@ -142,3 +142,37 @@ margin-bottom: 2.5rem;
         width: 30%;
     }
 }
+
+
+/* --- SECTION TESTIMONIALS --- */
+#testimonials {
+    text-align: center;
+    font-size: larger;
+}
+#testimonials h2 {
+    color: rgb(151,146,228);
+    font-size: 2rem;
+}
+#testimonials > * {
+    margin-bottom: 2rem;
+}
+
+.testimonial-card {
+    background-color: rgb(151,146,228);
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial-img img {
+    clip-path: circle()
+}
+.testimonial-name {
+    text-transform: uppercase;
+    display: block;
+    padding-top: 1rem;
+}
+
