@@ -1,8 +1,11 @@
+#get-demo {
+    flex-direction: column;
+}
 .card-get-demo {
     background-color: rgb(181,221,255);
     border-radius: 30px;
     text-align: center;
-    margin: 2rem 0;
+    margin-bottom: 1rem;
     padding: 2rem 1rem;
 }
 
@@ -33,4 +36,26 @@
 }
 #card1-get-demo img {
     margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #get-demo {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-get-demo {
+        width: calc(100% / 3 - 1rem);
+    }
+    #card1-get-demo {
+        width: calc((100% / 3) * 2 - 0.5rem);
+    }
+}
+/* Desktop */
+@media screen and (min-width: 600px){
+    
 }

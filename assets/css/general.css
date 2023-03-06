@@ -45,10 +45,33 @@ html {
     padding: 0.5rem 3rem;
     border-radius: 30px;
 }
-/* La classe container cambia a seconda del dispositivo */
-.container {
-    width: 85%;
-    margin: auto;
+
+section {
+    padding: 2rem 0;
 }
 
 /* BREAKPOINTS */
+/* Mobile */
+@media screen and (max-width: 600px){
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 600px){
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 900px){
+    .container {
+        max-width: 75%;
+        margin: auto;
+    }
+    html {
+        font-size: 20px;
+    }
+}
