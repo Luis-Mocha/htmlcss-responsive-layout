@@ -195,11 +195,44 @@ margin-bottom: 2.5rem;
     color: white;
     font-size: 2rem;
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem 0 2rem;
 }
 
 .benefit-card {
     background-color: white;
     padding: 2rem;
     border-radius: 30px;
+    margin-bottom: 1.5rem;
+}
+.benefit-card > * {
+    margin-bottom: 1.2rem;
+}
+
+.benefit-number,
+.benefit-name {
+    color: rgb(151,146,228);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #benefits h2 {
+        font-size: 3rem;
+    }
+    .benefit-cards-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .benefit-card {
+        width: calc(100% / 2 - 0.75rem);
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1000px){
+    .benefit-card {
+        width: calc(100% / 3 - 1rem);
+    }
 }
