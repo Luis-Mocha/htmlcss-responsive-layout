@@ -296,10 +296,12 @@ font-weight: 700;
 #started {
     color: white;
     text-align: center;
+    max-width: 90%;
+    margin: auto;
 }
 #started p:first-of-type {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 #started h2 {
     color: rgb(253,193,95);
@@ -325,4 +327,37 @@ font-weight: 700;
 }
 .copyright a {
     text-decoration: underline;
+}
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #started {
+        max-width: 50%;
+    }
+}
+
+/* -- FOOTER -- */
+footer {
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+
+    max-width: 90%;
+    margin: auto;
+}
+footer a {
+    color: blueviolet;
+    text-decoration: underline;
+}
+footer p:first-of-type {
+    margin-bottom: 3rem;
+}
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    footer {
+        max-width: 50%;
+    }
 }
