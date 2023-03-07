@@ -239,3 +239,90 @@ margin-bottom: 2.5rem;
 
 
 /* -- SECTION ABOUT-US -- */
+#about-us {
+    flex-direction: column;
+}
+#about-us h2 {
+    color: rgb(151,146,228);
+    font-size: 3rem;
+}
+
+.about-text > * {
+    margin-bottom: 1.5rem;
+}
+
+.about-img {
+    width: 60%;
+    position: relative;
+}
+
+.about-quote p {
+margin: 1.5rem 0;
+color: rgb(151,146,228);
+font-weight: 700;
+}
+
+.about-img .fa-quote-left {
+    position: absolute;
+    top: 0px;
+    right: 15%;
+    color: rgb(151,146,228);
+    font-size: 3rem; /* da tablet in su cambia */
+    z-index: 50;
+}
+.about-img img {
+    clip-path: circle();
+}
+
+/* BREAKPOINTS */
+/* Tablet */
+@media screen and (min-width: 600px){
+    #about-us {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-text {
+        flex-basis: 50%;
+    }
+
+    .about-quote {
+        flex-basis: 40%;
+    }
+    
+}
+
+
+/* -- SEZIONE GET STARTED -- */
+#started {
+    color: white;
+    text-align: center;
+}
+#started p:first-of-type {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#started h2 {
+    color: rgb(253,193,95);
+    font-size: 3rem;
+}
+#started .btn-getstarted {
+    color: rgb(151,146,228);
+    background-color: white;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+}
+.copyright {
+    font-size: small;
+}
+
+#started > * {
+    margin: 2rem 0;
+}
+
+.copyright {
+    font-size: smaller;
+}
+.copyright a {
+    text-decoration: underline;
+}
